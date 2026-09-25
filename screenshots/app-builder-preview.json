@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "香江三日",
+      "hasCanvas": false,
+      "bodyTextLen": 2616,
+      "bodyTextHash": "204a8b05a133671fc068d137633296d7a1c58856153bf13c8f8da8a1652f030c",
+      "bodyTextPrefix": "香江三日 香港自由行 · 路线、出口、吃什么 迪士尼 · 廉署 · 太平山 · 维港 三日行程 吃什么 景点 行前 交通 三日自",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "香江三日",
+      "hasCanvas": false,
+      "bodyTextLen": 2596,
+      "bodyTextHash": "a6cc8aa6cc755a92f00484c6e678e09b224a12a49877f19084b4e55ae6dcc30b",
+      "bodyTextPrefix": "香江三日 香港自由行 · 路线、出口、吃什么 三日行程 吃什么 景点 行前 交通 三日自由行攻略 先把路走对，再把东西吃对。 不",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

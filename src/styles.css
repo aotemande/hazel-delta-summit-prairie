@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #0e1419;
+  --color-ink-soft: #161d25;
+  --color-ink-mid: #24303b;
+  --color-paper: #f3eee4;
+  --color-paper-2: #e8e1d3;
+  --color-paper-3: #ddd4c4;
+  --color-fg: #1a1714;
+  --color-cream: #f3eee4;
+  --color-muted: #6f685c;
+  --color-faint: #8f877a;
+  --color-harbour: #2d7385;
+  --color-harbour-deep: #1a5160;
+  --color-harbour-mist: #d4e3e7;
+  --color-vermillion: #b42318;
+  --color-line: #d7cfc0;
+  --color-line-strong: #c3b9a6;
+  --font-sans: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei",
+    "Segoe UI", system-ui, sans-serif;
+  --font-display: "Songti SC", "STSong", "Noto Serif SC", "Source Han Serif SC",
+    "PMingLiU", serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1.25rem;
+  --radius-xl: 1.75rem;
+  --shadow-card: 0 0 0 1px rgba(26, 23, 20, 0.06), 0 1px 2px -1px rgba(26, 23, 20, 0.06),
+    0 8px 24px -12px rgba(14, 20, 25, 0.18);
+  --shadow-card-hover: 0 0 0 1px rgba(26, 23, 20, 0.1), 0 12px 32px -12px rgba(14, 20, 25, 0.28);
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: var(--color-paper);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    text-wrap: balance;
+    font-family: var(--font-display);
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  img {
+    outline: 1px solid rgba(26, 23, 20, 0.1);
+    outline-offset: -1px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.guide-prose p + p {
+  margin-top: 0.75rem;
+}

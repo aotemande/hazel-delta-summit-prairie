@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "香江三日",
+      "hasCanvas": false,
+      "bodyTextLen": 903,
+      "bodyTextHash": "df9f32da53f317233cdb19cbedd7b155ebb30bcd1166d56958f27acb6bb85570",
+      "bodyTextPrefix": "香江三日 三日行程 行前准备 出行交通 全部景点 HONG KONG · 3 DAYS 香江三日 太平山日落、维港夜航、北角廉政",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "香江三日",
+      "hasCanvas": false,
+      "bodyTextLen": 903,
+      "bodyTextHash": "df9f32da53f317233cdb19cbedd7b155ebb30bcd1166d56958f27acb6bb85570",
+      "bodyTextPrefix": "香江三日 三日行程 行前准备 出行交通 全部景点 HONG KONG · 3 DAYS 香江三日 太平山日落、维港夜航、北角廉政",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}
